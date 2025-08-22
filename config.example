@@ -1,0 +1,17 @@
+# Task Manager API - Environment Configuration Example
+# Скопируйте этот файл в .env и настройте под ваше окружение
+
+# Database
+DATABASE_URL=sqlite:///./data/tasks.db
+
+# Application
+APP_NAME="Task Manager API"
+DEBUG=False
+LOG_LEVEL=INFO
+
+# API Configuration
+API_V1_PREFIX=/api/v1
+CORS_ORIGINS=["*"]
+
+# Development
+DEVELOPMENT_MODE=False
