@@ -1,5 +1,4 @@
 # База данных
-data/
 *.db
 *.sqlite
 *.sqlite3
